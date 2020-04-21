@@ -1,0 +1,10 @@
+NET "Motor1_A" 		LOC = T12;
+NET "Motor1_B" 		LOC = V12;
+NET "Motor2_A" 		LOC = M10;
+NET "Motor2_B" 		LOC = N9;
+NET "Clk" 				LOC = V10;
+NET "Rst" 				LOC = B8;
+NET "Rx" 				LOC = N10;
+NET "Tx" 				LOC = P11;
+NET "motor_aspira" 	LOC = U11;
+NET "Switch" 			LOC = T10;

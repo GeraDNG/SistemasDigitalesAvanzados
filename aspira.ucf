@@ -1,0 +1,5 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "motor_aspira" LOC = U11;
+NET "Switch" LOC = T10;
