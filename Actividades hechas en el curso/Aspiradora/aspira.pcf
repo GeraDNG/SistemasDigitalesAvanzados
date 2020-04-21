@@ -1,0 +1,9 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Fri Dec 04 15:52:54 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Switch" LOCATE = SITE "T10" LEVEL 1;
+COMP "motor_aspira" LOCATE = SITE "U11" LEVEL 1;
+SCHEMATIC END;
+

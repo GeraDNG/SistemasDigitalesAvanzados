@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Surface Pro\Documents\TEC\SisDigAva\RICK\Aspiradora\aspira.ncd
+OUTFILE=C:\Users\Surface Pro\Documents\TEC\SisDigAva\RICK\Aspiradora\aspira.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Surface Pro\Documents\TEC\SisDigAva\RICK\Aspiradora
+LICENSE=WebPack
+USER_INFO=211075967_0_0_272

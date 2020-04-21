@@ -1,0 +1,14 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "TurnLeft" 	LOC = V9;
+NET "Haz" 			LOC = T9;
+NET "TurnRight" 	LOC = T10;
+NET "Rst" 			LOC = B8;
+NET "Clk" 			LOC = V10;
+NET "L[2]" 			LOC = T11;
+NET "L[1]" 			LOC = R11;
+NET "L[0]" 			LOC = N11;
+NET "R[0]" 			LOC = U15;
+NET "R[1]" 			LOC = V16;
+NET "R[2]" 			LOC = U16;

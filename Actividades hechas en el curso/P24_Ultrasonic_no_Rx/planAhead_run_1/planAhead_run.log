@@ -1,0 +1,132 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from D:/GERARDO/SisDigAva/Programa/Xilnx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/GERARDO/SisDigAva/Programa/Xilnx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/GERARDO/SisDigAva/Programa/Xilnx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P24_Ultrasonic_no_Rx/pa.fromNetlist.tcl}
+# create_project -name P24_Ultrasonic -dir "C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P24_Ultrasonic_no_Rx/planAhead_run_1" -part xc6slx16csg324-3
+create_project: Time (s): elapsed = 00:00:05 . Memory (MB): peak = 426.414 ; gain = 62.332
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P24_Ultrasonic_no_Rx/Ultrasonic.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P24_Ultrasonic_no_Rx} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Ultrasonic.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P24_Ultrasonic_no_Rx/Ultrasonic.ucf' to fileset 'constrs_1'
+# add_files [list {Ultrasonic.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx16csg324-3
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Ultrasonic.ngc ...
+WARNING:NetListWriters:298 - No output is written to Ultrasonic.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_47_OUT[23:0]_lut<23 : 3> on
+   block Ultrasonic is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_45_OUT[23:0]_lut<23 : 4> on
+   block Ultrasonic is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_43_OUT[23:0]_lut<23 : 5> on
+   block Ultrasonic is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_41_OUT_lut<23 : 6> on block
+   Ultrasonic is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_39_OUT_lut<23 : 7> on block
+   Ultrasonic is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_37_OUT_lut<23 : 8> on block
+   Ultrasonic is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_35_OUT_lut<23 : 9> on block
+   Ultrasonic is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_33_OUT_lut<23 : 10> on block
+   Ultrasonic is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_b[14]_add_31_OUT_lut<22 : 11> on block
+   Ultrasonic is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file Ultrasonic.edif ...
+ngc2edif: Total memory usage is 81036 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/P24_Ultrasonic.data/cache/Ultrasonic_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/P24_Ultrasonic.data/cache/Ultrasonic_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'Ultrasonic' is not ideal for floorplanning, since the cellview 'Ultrasonic' defined in file 'Ultrasonic.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+Loading clock regions from D:/GERARDO/SisDigAva/Programa/Xilnx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockRegion.xml
+Loading clock buffers from D:/GERARDO/SisDigAva/Programa/Xilnx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/ClockBuffers.xml
+Loading package pin functions from D:/GERARDO/SisDigAva/Programa/Xilnx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from D:/GERARDO/SisDigAva/Programa/Xilnx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx16/csg324/Package.xml
+Loading io standards from D:/GERARDO/SisDigAva/Programa/Xilnx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from D:/GERARDO/SisDigAva/Programa/Xilnx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : D:/GERARDO/SisDigAva/Programa/Xilnx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P24_Ultrasonic_no_Rx/Ultrasonic.ucf]
+Finished Parsing UCF File [C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P24_Ultrasonic_no_Rx/Ultrasonic.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: fd0eefab
+link_design: Time (s): elapsed = 00:00:22 . Memory (MB): peak = 600.316 ; gain = 167.996
+startgroup
+set_property package_pin T11 [get_ports {LEDs[7]}]
+endgroup
+set_property package_pin "" [get_ports [list  {LEDs[6]}]]
+startgroup
+set_property package_pin U15 [get_ports {LEDs[2]}]
+endgroup
+startgroup
+set_property package_pin V16 [get_ports {LEDs[1]}]
+endgroup
+startgroup
+set_property package_pin U16 [get_ports {LEDs[0]}]
+endgroup
+startgroup
+set_property package_pin V15 [get_ports {LEDs[3]}]
+endgroup
+startgroup
+set_property package_pin M11 [get_ports {LEDs[4]}]
+endgroup
+startgroup
+set_property package_pin N11 [get_ports {LEDs[5]}]
+endgroup
+startgroup
+set_property package_pin V10 [get_ports Clk]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports Rst]
+endgroup
+startgroup
+set_property package_pin N10 [get_ports Rx]
+endgroup
+startgroup
+set_property package_pin P11 [get_ports Tx]
+endgroup
+set_property package_pin "" [get_ports [list  {LEDs[6]}]]
+startgroup
+set_property package_pin M11 [get_ports {LEDs[4]}]
+endgroup
+startgroup
+set_property package_pin R11 [get_ports {LEDs[6]}]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri Nov 13 09:27:11 2015...
+INFO: [Common 17-83] Releasing license: PlanAhead

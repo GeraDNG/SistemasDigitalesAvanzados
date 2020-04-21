@@ -1,0 +1,41 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Ultrasonic.ngc ...
+WARNING:NetListWriters:298 - No output is written to Ultrasonic.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_47_OUT[23:0]_lut<23 : 3> on
+   block Ultrasonic is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_45_OUT[23:0]_lut<23 : 4> on
+   block Ultrasonic is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_43_OUT[23:0]_lut<23 : 5> on
+   block Ultrasonic is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_41_OUT_lut<23 : 6> on block
+   Ultrasonic is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_39_OUT_lut<23 : 7> on block
+   Ultrasonic is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_37_OUT_lut<23 : 8> on block
+   Ultrasonic is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_35_OUT_lut<23 : 9> on block
+   Ultrasonic is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_GND_8_o_add_33_OUT_lut<23 : 10> on block
+   Ultrasonic is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   tIN[14]_PWR_6_o_div_18/Madd_a[23]_b[14]_add_31_OUT_lut<22 : 11> on block
+   Ultrasonic is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file Ultrasonic.edif ...
+ngc2edif: Total memory usage is 81036 kilobytes
+

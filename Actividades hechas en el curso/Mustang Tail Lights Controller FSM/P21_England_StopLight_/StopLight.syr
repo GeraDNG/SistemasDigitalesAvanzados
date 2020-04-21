@@ -1,0 +1,183 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
+ 
+--> Reading design: StopLight.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "StopLight.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "StopLight"
+Output Format                      : NGC
+Target Device                      : xa7a100t-2I-csg324
+
+---- Source Options
+Top Module Name                    : StopLight
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Surface Pro\Documents\TEC\SisDigAva\RICK\Mustang Tail Lights Controller FSM\P21_England_StopLight_\StopLight.vhd" into library work
+Parsing entity <StopLight>.
+Parsing architecture <Behavioral> of entity <stoplight>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <StopLight> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "C:\Users\Surface Pro\Documents\TEC\SisDigAva\RICK\Mustang Tail Lights Controller FSM\P21_England_StopLight_\StopLight.vhd" Line 89. Case statement is complete. others clause is never selected
+INFO:HDLCompiler:679 - "C:\Users\Surface Pro\Documents\TEC\SisDigAva\RICK\Mustang Tail Lights Controller FSM\P21_England_StopLight_\StopLight.vhd" Line 105. Case statement is complete. others clause is never selected
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <StopLight>.
+    Related source file is "C:\Users\Surface Pro\Documents\TEC\SisDigAva\RICK\Mustang Tail Lights Controller FSM\P21_England_StopLight_\StopLight.vhd".
+    Found 2-bit register for signal <pres_state>.
+    Found 5-bit register for signal <SecondCount>.
+    Found 27-bit register for signal <Cont>.
+    Found 1-bit register for signal <TimeBase>.
+    Found finite state machine <FSM_0> for signal <pres_state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 8                                              |
+    | Clock              | Clk (rising_edge)                              |
+    | Reset              | Rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | red                                            |
+    | Power Up State     | red                                            |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 6-bit subtractor for signal <GND_6_o_GND_6_o_sub_5_OUT> created at line 63.
+    Found 27-bit adder for signal <Cont[26]_GND_6_o_add_1_OUT> created at line 50.
+    Found 5-bit adder for signal <SecondCount[4]_GND_6_o_add_6_OUT> created at line 67.
+    Found 6-bit comparator equal for signal <GND_6_o_GND_6_o_equal_6_o> created at line 63
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  33 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+	inferred   2 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <StopLight> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 27-bit adder                                          : 1
+ 5-bit adder                                           : 1
+ 6-bit subtractor                                      : 1
+# Registers                                            : 3
+ 1-bit register                                        : 1
+ 27-bit register                                       : 1
+ 5-bit register                                        : 1
+# Comparators                                          : 1
+ 6-bit comparator equal                                : 1
+# Multiplexers                                         : 2
+ 27-bit 2-to-1 multiplexer                             : 1
+ 5-bit 2-to-1 multiplexer                              : 1
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst - The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+Loading device for application Rf_Device from file '7a100t.nph' in environment D:\GERARDO\SisDigAva\Programa\Xilnx\14.7\ISE_DS\ISE\.
+Loading device for application Rf_Device from file '7a100t.nph' in environment D:\GERARDO\SisDigAva\Programa\Xilnx\14.7\ISE_DS\ISE\.

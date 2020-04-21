@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P28_RWM/RWM_tb_isim_beh.exe" -prj "C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P28_RWM/RWM_tb_beh.prj" "work.RWM_tb" 

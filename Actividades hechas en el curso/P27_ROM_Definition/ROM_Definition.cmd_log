@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P27_ROM_Definition/ROM_Definition.xst" -ofn "C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P27_ROM_Definition/ROM_Definition.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 "ROM_Definition.ngc" ROM_Definition.ngd  

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Surface Pro\Documents\TEC\SisDigAva\RICK\Prueba\Ultrasonic.ncd
+OUTFILE=C:\Users\Surface Pro\Documents\TEC\SisDigAva\RICK\Prueba\Ultrasonic.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\Surface Pro\Documents\TEC\SisDigAva\RICK\Prueba
+LICENSE=WebPack
+USER_INFO=211075967_0_0_272

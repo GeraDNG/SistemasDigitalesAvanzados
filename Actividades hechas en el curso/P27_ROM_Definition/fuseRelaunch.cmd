@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P27_ROM_Definition/ROM_tb_isim_beh.exe" -prj "C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P27_ROM_Definition/ROM_tb_beh.prj" "work.ROM_tb" 

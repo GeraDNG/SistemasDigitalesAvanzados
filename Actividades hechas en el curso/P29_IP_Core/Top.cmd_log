@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P29_IP_Core/Top.xst" -ofn "C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/P29_IP_Core/Top.syr" 

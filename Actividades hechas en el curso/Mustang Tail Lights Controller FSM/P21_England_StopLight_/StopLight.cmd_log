@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/Mustang Tail Lights Controller FSM/P21_England_StopLight_/StopLight.xst" -ofn "C:/Users/Surface Pro/Documents/TEC/SisDigAva/RICK/Mustang Tail Lights Controller FSM/P21_England_StopLight_/StopLight.syr" 

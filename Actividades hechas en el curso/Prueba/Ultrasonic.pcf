@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Dec 07 10:09:19 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Rx" LOCATE = SITE "N10" LEVEL 1;
+COMP "Tx" LOCATE = SITE "P11" LEVEL 1;
+COMP "Clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "Rst" LOCATE = SITE "B8" LEVEL 1;
+COMP "motor_aspira" LOCATE = SITE "U11" LEVEL 1;
+COMP "Motor2_A" LOCATE = SITE "M10" LEVEL 1;
+COMP "Motor2_B" LOCATE = SITE "N9" LEVEL 1;
+COMP "Motor1_A" LOCATE = SITE "T12" LEVEL 1;
+COMP "Motor1_B" LOCATE = SITE "V12" LEVEL 1;
+COMP "Switch" LOCATE = SITE "T10" LEVEL 1;
+SCHEMATIC END;
+
